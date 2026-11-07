@@ -35,6 +35,11 @@
             <artifactId>logback-classic</artifactId>
             <version>1.6.5</version>
         </dependency>
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-embeddings-bge-small-en-v15</artifactId>
+            <version>1.23.0-beta33</version>
+        </dependency>
     </dependencies>
 
 </project>
