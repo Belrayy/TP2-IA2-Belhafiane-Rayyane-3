@@ -25,7 +25,8 @@ public class Test2Couts {
                 .temperature(0.7)
                 .build();
 
-        String question = "Bonjour; je suis Belrayy";
+        //String question = "Bonjour; je suis Belrayy";
+        String question = "Je dois partir dans 2 jours à Paris ; j'y resterai 3 jours. Est-ce que je dois mettre un parapluie dans mes valises ?";
 
         ChatResponse response = modele.chat(
                 UserMessage.from(question)
